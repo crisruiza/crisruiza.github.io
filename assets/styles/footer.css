@@ -1,0 +1,33 @@
+footer{
+    background-color: #DDFBB3;
+    padding: 50px 50px 50px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img{
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links{
+    padding: 0px 30px;
+}
+.links h4,li{
+    margin-bottom: 15px;
+}
+
+.links li a{
+    color: black;
+    text-decoration: none;
+}
+
+.links ul li{
+    list-style: none;
+}

@@ -1,0 +1,31 @@
+.adicionales{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.adicionales-text{
+    margin: 25px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.adicionales-img{
+    max-width: 1000px;
+}
+
+.adicionales-img img{
+    width: 100%;
+}
+
+.adicionales-text button {
+    margin: 20px 0px;
+    padding: 12px 20px;
+    border-radius: 30px;
+    background-color: black;
+    color: #FCF9F2;
+}
+
+.adicionales-text button:hover {
+    background-color: #FE97E8;
+    color: black;
+}

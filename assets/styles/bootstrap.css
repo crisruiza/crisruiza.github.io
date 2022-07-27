@@ -13,6 +13,10 @@ h2 {
     font-family: Montserrat;
     font-weight: 600;
 }
+h4 {
+    font-family: Montserrat;
+    font-weight: 500;
+}
 
 p {
     font-size: 1.25rem;
@@ -123,7 +127,6 @@ strong a:hover {
 /* Adicional */
 .adicional-container {
     padding: 5rem 3rem;
-    vertical-align: middle;
 }
 
 .adicional-container img {
@@ -133,5 +136,29 @@ strong a:hover {
     transform: translateY(-50%);
     border-radius: 30px;
     border: 3px solid black;
+}
+/* Footer */
 
+.footer-container{
+    background-color: #FEE5F9;
+    padding: 5rem 3rem;
+}
+.footer-container img{
+    width: 30px;
+    margin-right: 10px;
+    margin-bottom: 2rem;
+}
+
+.footer-container ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-container li{
+    padding: .5rem 0;
+}
+.footer-container a{
+    color: black;
+}
+.footer-container a:hover{
+    text-decoration: none;
 }

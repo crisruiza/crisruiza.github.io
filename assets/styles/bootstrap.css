@@ -110,7 +110,12 @@ strong a:hover {
 .catalogo-container p {
     padding-bottom: 2rem;
 }
-
+.card{
+    height: 100%;
+}
+.prueba{
+    vertical-align: bottom;
+}
 .card-body{
     background-color: #FCF9F2;
 }

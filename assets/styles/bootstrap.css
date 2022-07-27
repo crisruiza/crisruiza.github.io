@@ -1,31 +1,89 @@
 /* General */
-body{
+body {
     font-family: 'Montserrat', sans-serif;
-}
-/* Nav */
-
-.navbar{
-    background-color: #FE97E8;
-    padding:1rem 1rem;
+    background-color: #FCF9F2;
 }
 
-.navbar-brand{
-    color: black;
-}
-.navbar-nav a{
-    color: black;
+h1 {
+    font-family: Montserrat;
+    font-weight: bold;
 }
 
-.navbar-nav button{
+.btn-custom {
     background-color: #FCF9F2;
     border-radius: 30px;
+
 }
-.navbar-nav button:hover{
+
+.btn-custom:hover {
+    background-color: black;
     color: #FCF9F2;
+
 }
-.navbar-toggler{
+
+/* Nav */
+
+.navbar {
+    background-color: #FE97E8;
+    padding: 1rem 3rem;
+    border-bottom: 3px solid black;
+}
+
+.navbar a {
+    color: black;
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+.navbar-toggler {
     line-height: 1.5;
     background-color: #FCF9F2;
 }
 
+/* Jumbotron */
+.jumbotron-container {
+    padding: 5rem 3rem;
+    
+}
 
+.btn-jumbotron-announcement {
+    margin: 2rem 0;
+    background-color: #FE97E8;
+}
+
+.btn-jumbotron-announcement:hover {
+    margin: 2rem 0;
+    background-color: #FE97E8;
+    color: black;
+}
+
+.jumbotron-container p {
+    font-size: 1.25rem;
+}
+
+.jumbotron-container img {
+    width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 30px;
+    border: 3px solid black;
+
+}
+
+.btn-jumbotron-form {
+    margin: 1rem 0;
+    background-color: black;
+    color: #FCF9F2;
+}
+
+
+strong a {
+    color: black;
+}
+
+strong a:hover {
+    color: #FE97E8;
+}

@@ -9,9 +9,19 @@ h1 {
     font-weight: bold;
 }
 
+h2 {
+    font-family: Montserrat;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
 .btn-custom {
     background-color: #FCF9F2;
     border-radius: 30px;
+    color: black;
 
 }
 
@@ -45,7 +55,6 @@ h1 {
 /* Jumbotron */
 .jumbotron-container {
     padding: 5rem 3rem;
-    
 }
 
 .btn-jumbotron-announcement {
@@ -86,4 +95,25 @@ strong a {
 
 strong a:hover {
     color: #FE97E8;
+}
+
+/* Catálogo */
+.catalogo-container {
+    background-color: #FEE5F9;
+    padding: 5rem 3rem;
+}
+
+.catalogo-title {
+    text-align: center;
+}
+
+.catalogo-container p {
+    padding-bottom: 2rem;
+}
+
+.card-body{
+    background-color: #FCF9F2;
+}
+.card-text{
+    text-align: left;
 }

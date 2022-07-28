@@ -12,7 +12,9 @@ h1 {
 h2 {
     font-family: Montserrat;
     font-weight: 600;
+    text-align: center;
 }
+
 h4 {
     font-family: Montserrat;
     font-weight: 500;
@@ -104,7 +106,7 @@ strong a:hover {
 /* Catálogo */
 .catalogo-container {
     background-color: #FEE5F9;
-    padding: 5rem 3rem;
+    padding: 2rem 3rem;
 }
 
 .catalogo-title {
@@ -114,19 +116,51 @@ strong a:hover {
 .catalogo-container p {
     padding-bottom: 2rem;
 }
-.card{
+
+.card {
     height: 100%;
 }
 
-.card-body{
+.card-body {
     background-color: #FCF9F2;
 }
-.card-text{
+
+.card-text {
     text-align: left;
 }
+
+/* Catálogo Media Queries */
+
+.catalogo-media-container h2 {
+    padding-bottom: 2rem;
+    background-color: #FEE5F9;
+}
+
+.catalogo-media-container {
+    background-color: #FEE5F9;
+    padding: 2rem 3rem;
+}
+.media-queries {
+    display: grid;
+    grid-template-areas: "auto auto auto auto";
+}
+
+.tarjeta {
+    background-color: #FCF9F2;
+    margin: 0 1rem 3rem;
+}
+
+.tarjeta img {
+    width: 100%;
+}
+
 /* Adicional */
 .adicional-container {
     padding: 5rem 3rem;
+}
+
+.adicional-container h2 {
+    text-align: left;
 }
 
 .adicional-container img {
@@ -137,28 +171,55 @@ strong a:hover {
     border-radius: 30px;
     border: 3px solid black;
 }
+
 /* Footer */
 
-.footer-container{
+.footer-container {
     background-color: #FEE5F9;
     padding: 5rem 3rem;
 }
-.footer-container img{
+
+.footer-container img {
     width: 30px;
     margin-right: 10px;
     margin-bottom: 2rem;
 }
 
-.footer-container ul{
+.footer-container ul {
     list-style: none;
     padding: 0;
 }
-.footer-container li{
+
+.footer-container li {
     padding: .5rem 0;
 }
-.footer-container a{
+
+.footer-container a {
     color: black;
 }
-.footer-container a:hover{
+
+.footer-container a:hover {
     text-decoration: none;
+}
+
+/* Media Queries*/ 
+
+@media only screen and (max-width: 1024px){
+    .media-queries {
+        display: grid;
+        grid-template-areas: "auto auto auto";
+    }
+}
+@media only screen and (max-width: 768px){
+    .media-queries {
+        display: grid;
+        grid-template-areas: "auto auto";
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .media-queries {
+        display: grid;
+        grid-template-areas: "auto";
+    }
 }
